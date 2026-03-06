@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.highlighted {
+    border: 2px solid orange !important;
+    background-color: rgba(255,165,0,0.1) !important;
+    transition: background-color 0.3s ease;
+}
